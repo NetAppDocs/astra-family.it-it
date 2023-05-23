@@ -1,0 +1,146 @@
+---
+permalink: intro-family.html 
+keywords: introduction, how astra works, how Astra works, what Astra is, astra control, kubernetes, astra control service, astra control center 
+summary: Astra è un servizio di gestione del ciclo di vita dei dati delle applicazioni Kubernetes che semplifica le operazioni per le applicazioni stateful. Proteggi, esegui il backup e migra facilmente i carichi di lavoro Kubernetes e crea istantaneamente cloni applicativi funzionanti. 
+---
+= Scopri di più sulla famiglia di prodotti Astra
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+La famiglia di prodotti NetApp Astra offre storage e gestione dei dati applicativi per le applicazioni native del cloud.
+
+Le offerte di Astra includono:
+
+* *Astra Control*: Utilizza tool di gestione dei dati basati sulle applicazioni che gestiscono, proteggono e spostano i carichi di lavoro Kubernetes nei cloud pubblici e on-premise.​
++
+** *Astra Control Service*: Utilizza un servizio gestito da NetApp per la gestione dei dati dei carichi di lavoro Kubernetes nei cloud pubblici.
+** *Astra Control Center*: Utilizza software autogestito per la gestione dei dati dei carichi di lavoro Kubernetes on-premise.
+
+
+* *Astra Trident*: Utilizzo del provisioning e della gestione dello storage conforme a CSI (Container Storage Interface) per i carichi di lavoro Kubernetes con i provider di storage NetApp.
+
+
+
+
+== Controllo Astra
+
+Astra Control è una soluzione per la gestione del ciclo di vita dei dati delle applicazioni Kubernetes che semplifica le operazioni per le applicazioni stateful. Proteggi, esegui il backup e migra facilmente i carichi di lavoro Kubernetes e crea istantaneamente cloni applicativi funzionanti.
+
+
+
+=== Caratteristiche
+
+Astra Control offre funzionalità critiche per la gestione del ciclo di vita dei dati delle applicazioni Kubernetes:
+
+* Gestire automaticamente lo storage persistente
+* Creazione di snapshot e backup on-demand basati sulle applicazioni
+* Automatizzare le operazioni di backup e snapshot basate su policy
+* Migrare applicazioni e dati da un cluster Kubernetes a un altro
+* Replica delle applicazioni su un sistema remoto utilizzando la tecnologia NetApp SnapMirror (Astra Control Center)
+* Clonare le applicazioni dallo staging alla produzione
+* Visualizzare lo stato di salute e protezione dell'applicazione
+* Utilizzare un'interfaccia utente Web o un'API per implementare i flussi di lavoro di backup e migrazione
+
+
+
+
+=== Modelli di implementazione
+
+Astra Control è disponibile in due modelli di implementazione:
+
+* *Astra Control Service*: Un servizio gestito da NetApp che offre la gestione dei dati application-aware dei cluster Kubernetes in ambienti di cloud provider multipli e cluster Kubernetes autogestiti.
++
+https://docs.netapp.com/us-en/astra/index.html["Documentazione del servizio Astra Control"^]
+
+* *Astra Control Center*: Software autogestito che fornisce la gestione dei dati applicativa dei cluster Kubernetes in esecuzione nel tuo ambiente on-premise. Il centro di controllo Astra può essere installato anche in ambienti di cloud provider multipli con un backend di storage NetApp Cloud Volumes ONTAP.
++
+https://docs.netapp.com/us-en/astra-control-center/["Documentazione di Astra Control Center"^]
+
+
+
+[cols="1h,2a,2a"]
+|===
+|  | Servizio di controllo Astra | Centro di controllo Astra 
+
+
+| Come viene offerto?  a| 
+Come servizio cloud completamente gestito da NetApp
+ a| 
+Come software scaricato, installato e gestito
+
+
+
+| Dove è ospitato?  a| 
+Su un cloud pubblico scelto da NetApp
+ a| 
+Sul tuo cluster Kubernetes
+
+
+
+| Come viene aggiornato?  a| 
+Gestito da NetApp
+ a| 
+Gli aggiornamenti vengono gestiti
+
+
+
+| Che cos'è il supporto back-end dello storage?  a| 
+* Servizi Web Amazon:
++
+** Amazon EBS
+** Amazon FSX per NetApp ONTAP
+** link:https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-getting-started-aws.html["Cloud Volumes ONTAP"^]
+
+
+* Google Cloud:
++
+** Disco persistente di Google
+** NetApp Cloud Volumes Service
+** link:https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-getting-started-gcp.html["Cloud Volumes ONTAP"^]
+
+
+* Microsoft Azure:
++
+** Dischi gestiti Azure
+** Azure NetApp Files
+** link:https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-getting-started-azure.html["Cloud Volumes ONTAP"^]
+
+
+* Cluster a gestione automatica:
++
+** Amazon EBS
+** Disco persistente di Google
+** Dischi gestiti Azure
+** link:https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-overview-cvo.html["Cloud Volumes ONTAP"^]
+
+
+
+ a| 
+* Sistemi NetApp ONTAP AFF e FAS
+* link:https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-overview-cvo.html["Cloud Volumes ONTAP"^]
+
+
+|===
+
+
+== Astra Trident
+
+Astra Trident è l'implementazione open source di NetApp di un'interfaccia CSI (Container Storage Interface) driver​ di Kubernetes. Astra Trident offre orchestrazione e connettività dati per Kubernetes applications​.
+
+https://docs.netapp.com/us-en/trident/index.html["Documentazione di Astra Trident"^]
+
+
+
+== Per ulteriori informazioni
+
+* https://docs.netapp.com/us-en/astra/index.html["Documentazione del servizio Astra Control"^]
+* https://docs.netapp.com/us-en/astra-control-center/["Documentazione di Astra Control Center"^]
+* https://docs.netapp.com/us-en/trident/index.html["Documentazione di Astra Trident"^]
+* https://docs.netapp.com/us-en/astra-automation/index.html["API di controllo Astra"^]
+* https://docs.netapp.com/us-en/cloudinsights/["Documentazione Cloud Insights"^]
+* https://docs.netapp.com/us-en/ontap/index.html["Documentazione ONTAP"^]
+
