@@ -91,7 +91,7 @@ Astra Control è costruito su quattro componenti complementari:
 
 Astra Control è disponibile in due modelli di implementazione.
 
-image:astra-architecture-diagram-v6.png["Modelli di implementazione Astra"]
+image:astra-architecture-diagram-v7.png["Modelli di implementazione Astra"]
 
 * *Astra Control Service*: Un servizio gestito da NetApp che offre la gestione dei dati application-aware dei cluster Kubernetes in ambienti di cloud provider multipli e cluster Kubernetes autogestiti.
 +
@@ -152,7 +152,7 @@ Gli aggiornamenti vengono gestiti
 
 * *Cluster on-premise*
 +
-** Piattaforma Red Hat OpenShift Container all'interno dell'hotel
+** Red Hat OpenShift Container Platform all'interno dell'hotel
 
 
 
