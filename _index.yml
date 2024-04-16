@@ -36,7 +36,7 @@ product-family:
       dei carichi di lavoro Kubernetes on-premise.
     tags: tag_all, tag_application_data_management
   - title: Astra Trident
-    icon: "./media/Astra-Trident-logo.png"
+    icon: "./media/Astra-Trident-logo2.png"
     url: "../trident/index.html"
     summary: Utilizza il provisioning e la gestione dello storage conformi a CSI per
       i carichi di lavoro Kubernetes con i provider di storage NetApp.
