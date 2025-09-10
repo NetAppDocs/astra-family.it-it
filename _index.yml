@@ -31,7 +31,7 @@ product-family:
     tags: tag_all, tag_application_data_management
   - title: Astra Trident
     icon: "./media/Astra-Trident-logo2.png"
-    url: "../trident/index.html"
+    url: "../trident-2406/index.html"
     summary: Utilizza il provisioning e la gestione dello storage conformi a CSI per
       i carichi di lavoro Kubernetes con i provider di storage NetApp.
     tags: tag_all, tag_storage_management
